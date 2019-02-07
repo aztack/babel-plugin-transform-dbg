@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-dbg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Babel plugin that add __debug for debugging and logging",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aztack/babel-plugin-transform-dbg/issues"
   },
-  "homepage": "https://github.com/aztack/babel-plugin-transform-dbg#readme"
+  "homepage": "https://github.com/aztack/babel-plugin-transform-dbg#readme",
+  "dependencies": {
+    "estree-walker": "^0.6.0"
+  }
 }
