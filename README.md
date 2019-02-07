@@ -22,7 +22,7 @@ yarn add -D babel-plugin-transform-dbg
 const vm = {
   methods: {
     onSomeEvent () {
-      console.log(__debug) // {file:"/absolute/path/to/component.vue",line:3,method:"onSomeEvent"}
+      console.log(__debug) // {file:"/absolute/path/to/component.vue",line:4,method:"onSomeEvent"}
     }
   }
 }
@@ -32,7 +32,7 @@ const vm = {
 ```
 // a.js
 function test () {
-   console.log(__debug); // {file:"/absolute/path/to/a.js",line:1,method:"test"}
+   console.log(__debug); // {file:"/absolute/path/to/a.js",line:2,method:"test"}
 }
 test()
 ```
